@@ -27,7 +27,7 @@ class UserClient extends CurlAbstract
             return self::$self;
         }
         self::$self = new self();
-        self::$self->uri = Config::$domain['k8']['user'].'/user/';
+        self::$self->uri = Config::$domain['ld']['user'].'/user/';
         return self::$self;
     }
 

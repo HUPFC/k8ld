@@ -26,7 +26,7 @@ class MailClient extends CurlAbstract
             return self::$self;
         }
         self::$self = new self();
-        self::$self->uri = Config::$domain['k8']['user'].'/mail/';
+        self::$self->uri = Config::$domain['ld']['user'].'/mail/';
         return self::$self;
     }
 

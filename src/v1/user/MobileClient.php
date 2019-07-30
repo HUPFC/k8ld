@@ -33,7 +33,7 @@ class MobileClient extends CurlAbstract
     public function __construct()
     {
         parent::__construct();
-        $this->uri = Config::$domain['k8']['user'].'/mobile/';
+        $this->uri = Config::$domain['ld']['user'].'/mobile/';
     }
 
 

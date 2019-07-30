@@ -26,7 +26,7 @@ class SessionClient extends CurlAbstract
             return self::$self;
         }
         self::$self = new self();
-        self::$self->uri = Config::$domain['k8']['user'].'/session/';
+        self::$self->uri = Config::$domain['ld']['user'].'/session/';
         return self::$self;
     }
 
